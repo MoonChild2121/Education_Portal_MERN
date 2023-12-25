@@ -1,0 +1,198 @@
+#headingeng {
+  color: rgb(31, 29, 71);
+}
+#headingsci {
+  color: rgb(255, 255, 255);
+}
+#headingmath {
+  color: rgb(255, 255, 255);
+}
+.App {
+  text-align: center;
+}
+
+#qscardeng {
+  /* Visual  */
+  background-color: rgb(77, 72, 162);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(40, 40, 101, 0.25) 0px 30px 60px -12px,
+    rgba(57, 41, 124, 0.3) 0px 18px 36px -18px;
+}
+#qscardsci {
+  /* Visual  */
+  background-color: rgb(190, 178, 63);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(27, 27, 49, 0.25) 0px 30px 60px -12px,
+    rgba(30, 19, 76, 0.3) 0px 18px 36px -18px;
+}
+#qscardmath {
+  /* Visual  */
+  background-color: rgb(42, 95, 30);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(27, 27, 49, 0.25) 0px 30px 60px -12px,
+    rgba(30, 19, 76, 0.3) 0px 18px 36px -18px;
+}
+.question-card {
+  /* Center the div  */
+  margin: 0 auto;
+  margin-top: 1%;
+
+  /* Dimensions  */
+  width: 80%; /* Can be in percentage also. */
+  height: auto;
+
+
+}
+
+question-card > ul {
+  list-style: none;
+}
+#lieng{
+  background-color: rgb(31, 27, 83);
+}
+#lisci{
+  background-color: rgb(157, 100, 21);
+}
+#limath{
+  background-color: rgb(11, 50, 6);
+}
+li {
+  margin-top: 8px;
+  
+  padding: 16px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.question-text {
+  color: rgb(243, 243, 248);
+  font-size: 24px;
+  font-family: comic sans ms;
+  margin-bottom: 2%;
+}
+
+/* Final Results  */
+#finalreseng {
+  color: white;
+  background-color: rgb(31, 27, 83);
+  padding: 16px;
+  border-radius: 16px;
+  color: white !important; 
+  box-shadow: rgba(40, 40, 101, 0.25) 0px 30px 60px -12px,
+  rgba(57, 41, 124, 0.3) 0px 18px 36px -18px;
+}
+#finalressci {
+  color: white;
+  background-color: rgb(190, 178, 63);
+  padding: 16px;
+  border-radius: 16px;
+  color: white !important; 
+  box-shadow: rgba(27, 27, 49, 0.25) 0px 30px 60px -12px,
+  rgba(30, 19, 76, 0.3) 0px 18px 36px -18px;
+}
+#finalresmath {
+  color: white;
+  background-color: rgb(11, 50, 6);
+  padding: 16px;
+  border-radius: 16px;
+  color: white !important; 
+  box-shadow: rgba(27, 27, 49, 0.25) 0px 30px 60px -12px,
+  rgba(30, 19, 76, 0.3) 0px 18px 36px -18px;
+}
+.final-results {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  
+}
+
+#buttonquizeng {
+  background-color: rgb(120, 117, 165); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+}
+
+#buttonquizsci {
+  background-color: rgb(157, 100, 21); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+}
+#buttonquizmath {
+  background-color: rgb(42, 95, 30); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+}
+#quizaudioeng {
+  background-color: rgb(31, 27, 83); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+  margin-bottom: 2%;
+}
+#quizaudiosci {
+  background-color: rgb(157, 100, 21);
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+  margin-bottom: 2%;
+}
+#quizaudiomath {
+  background-color: rgb(11, 50, 6);
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+  margin-bottom: 2%;
+}
+

@@ -1,0 +1,94 @@
+.gradient-custom-2 {
+  /* fallback for old browsers /
+  background: #ecc596;
+
+  / Chrome 10-25, Safari 5.1-6 /
+  background: --webkit-linear-gradient(90deg, hsla(0, 64%, 59%, 1) 0%, hsla(26, 100%, 95%, 1) 100%);
+
+  / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #DA5555,#df827d, #DA5555);
+}
+#signin {
+  background-color: rgb(215, 63, 63);
+}
+#signin:hover {
+  background-color: rgb(174, 48, 48);
+}
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+#signup {
+  background-color: rgb(215, 63, 63);
+}
+#signup:hover {
+  background-color: rgb(174, 48, 48);
+}
+#vidbtn, #my-btn {
+  background-color: rgb(215, 63, 63);
+  margin-top: 20px;
+  font-size: 24px;
+  width: 200px;
+  height: 60px;
+  border: none;
+}
+#vidbtn:hover, #my-btn:hover {
+  background-color: rgb(174, 48, 48);
+  margin-top: 20px;
+  font-size: 24px;
+  width: 200px;
+  height: 60px;
+  border: none;
+}
+
+#firstbutton {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(215, 63, 63);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 24px;
+  width: 200px;
+  height: 60px;
+  font-weight: bold;
+  animation: glowing 2s infinite;
+  border: none;
+}
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 0 0 white;
+  }
+  50% {
+    box-shadow: 0 0 80px 0 white;
+  }
+  100% {
+    box-shadow: 0 0 0 0 white;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(174, 45, 45);
+}
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  min-height: 100%;
+  height: 100%;
+}

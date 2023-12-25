@@ -1,0 +1,28 @@
+#subjectButton {
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+    border-radius: 6px;
+    font-size: 24px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    animation: glowing 2s infinite;
+      }
+      
+      @keyframes glowing {
+        0% {
+          background-color: rgb(190, 120, 120);
+          box-shadow: 0 0 10px rgb(190, 120, 120);
+        }
+        50% {
+          background-color: #db1e14;
+          box-shadow: 0 0 20px #cb0c09;
+        }
+        100% {
+          background-color: rgb(190, 120, 120);
+          box-shadow: 0 0 10px rgb(190, 120, 120);
+        }
+      }
+      
